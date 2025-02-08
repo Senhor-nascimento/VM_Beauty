@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500&display=swap');
+
+:root{
+    --header-height: 3.5rem;
+
+    --body-font: "Montserrat Alternates", sans-serif;
+    --h1-font-size: 1.5rem;
+    --normal-font-size: .938rem;
+
+    --font-regular: 400;
+    --font-medium: 500;
+
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+section{
+    width: 100%;
+    min-height: 400px;
+    text-align: center;
+    padding: 40px 4%;
+    font-family: roboto;
+    color: rgb(20, 20, 20);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: var(--body-font);
+}
+
+.limpaUm{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.limpaUm h1{
+    color: white;
+    font-size: 64px;
+    background-color: #B86B77;
+    border-radius: 8px;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+.pinKing{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.king{
+    width: 100%;
+    font-size: 32px;
+}
+.cold{
+    max-width: 400px;
+    margin: 20px;
+    text-align: justify;
+}
+.hot{
+    max-width: 400px;
+    margin: 30px;
+    text-align: justify;
+}
+
+section:nth-of-type(1){
+    background-image: url(../img/limpa1.jpg);
+    height: 710px;
+}
+section:nth-of-type(3){
+    background-image: url(../img/limpa2.jpg);
+}
+section:nth-of-type(5){
+    background-image: url(../img/limpa3.jpg);
+}
+section:nth-of-type(7){
+    background-image: url(../img/limpa4.jpg);
+}
+section:nth-of-type(9){
+    background-image: url(../img/limpa5.jpg);
+}
+section:nth-of-type(11){
+    background-image: url(../img/limpa6.jpg);
+}
+.raining{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Rain{
+    max-width: 800px;
+    margin-bottom: 15px;
+}
